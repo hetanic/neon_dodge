@@ -52,6 +52,7 @@ export const metadata: Metadata = {
   },
   other: {
     "fc:miniapp": fcMiniappEmbed,
+    "base:app_id": "698328eabd202a51855da5a1",
   },
 };
 

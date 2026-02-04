@@ -9,7 +9,7 @@ export const APP_CATEGORY = "games";
 
 // URL - uses env var in production, fallback for dev
 export const ROOT_URL =
-  process.env.NEXT_PUBLIC_URL || "http://localhost:3000";
+  (process.env.NEXT_PUBLIC_URL || "http://localhost:3000").replace(/\/$/, "");
 
 // Colors
 export const COLORS = {

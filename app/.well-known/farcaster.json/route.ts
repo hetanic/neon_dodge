@@ -35,8 +35,8 @@ export async function GET() {
             ],
             primaryCategory: APP_CATEGORY,
             tags: APP_TAGS,
-            ogTitle: `${APP_NAME} - ${APP_TAGLINE}`,
-            ogDescription: APP_DESCRIPTION,
+            ogTitle: APP_NAME, // "NEON DODGE" (10 chars, max 30)
+            ogDescription: "Dodge neon obstacles, collect orbs, beat your score. How long can you survive?", // 79 chars, max 100
             ogImageUrl: `${ROOT_URL}/assets/hero.png`,
             // Ready for production
             noindex: false,

@@ -45,14 +45,14 @@ export const GAME_CONFIG = {
   orbRadius: 15,
   orbSpawnChance: 0.02, // 2% chance per frame
   orbSpeed: 2,
-  orbPoints: 50,
+  orbPoints: 20,
 
   // Difficulty
   difficultyIncreaseInterval: 500, // frames
   maxDifficultyLevel: 20,
 
   // Scoring
-  pointsPerFrame: 1,
+  pointsPerFrame: 0.017, // ~1 point per second at 60fps
 } as const;
 
 // Storage Keys
